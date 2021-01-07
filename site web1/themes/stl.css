@@ -1,0 +1,123 @@
+*{
+
+  margin:0 ;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration:none ;
+}
+.max-width{
+   max-width: 1300px;
+   padding: 0 80px;
+   margin: auto;
+}
+.navbar {
+   position: fixed;
+   width:100%;
+   padding:4px 0;
+    background:#8c5d69 ;
+   font-family:'ubuntu', sans-serif; 
+   transition: all 0.3s ease;
+}
+.navbar .sticky{
+   padding: 30px 0;
+   background:crimson;
+}
+.navbar .max-width{
+
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.navbar .logo a{
+   color:#fff;
+   font-size: 35px;
+   font-weight:600 ;
+}
+.navbar .logo a span{
+    color:#e01255; 
+}
+.navbar .logo{
+  font-family: 'Zilla Slab', serif; }
+.navbar .menu li{
+
+  list-style:none ;
+  display:inline-block;
+}
+.navbar .menu li a{
+   color:#fff;
+   font-size:18px;
+   font-weight:500;
+   margin-left:25px; 
+   transition: color 0.3 ease;
+}
+.navbar .menu li span{
+  display:inline-block ;
+  background: #61404f;
+  color:#fff;
+  font-size: 18px;
+  padding: 12px 12px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid rgb(252, 251, 251);
+}
+.navbar .menu li a:hover{
+    font-size:20px;
+    color: crimson;
+    text-decoration: underline #ffffff; }
+.menu-btn{
+   color: #fff;
+   font-size: 23px;
+   cursor:pointer;
+   display: none;
+}
+.lst{
+  
+  text-align: center;
+  padding: 100px;
+  background: url("marbre.jpg") no-repeat ;
+  background-size: cover;
+  height: 97.25vh;
+  width: 540vh;
+  margin-left: -100px;
+ 
+}
+.lst ul{
+ display: inline-flex;
+  list-style: none;
+  color: rgb(0, 0, 0);
+}
+.lst ul li{
+ width: 400px;
+  margin: 15px;
+  padding: 1px;
+  
+}
+
+.lst ul li a{
+  text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.lst ul li img{
+  height: 177;
+
+}
+#del{
+  color: #e01255;
+}
+
+.lst ul li:hover
+{
+  background: #a77f8f;
+  border-radius: 10px; 
+}
+.prmt {
+ font-size: 2em;
+ background: none;
+ border-radius: 0%;
+}
+
+.lst ul li h2{
+
+color: blueviolet;
+}
+

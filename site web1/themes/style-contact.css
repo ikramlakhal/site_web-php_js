@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Ubuntu:wght@400;500;700&display=swap');
+.modal-content {
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    width: 111%;
+    pointer-events: auto;
+    background-color:#92264aed;;;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 2.3rem;
+    outline: 0;
+    font-size: 21px; 
+}
+
+    .col-form-label {
+    font-family:'ubuntu', sans-serif;
+    color: #fff;
+ }
+ 
+ .modal-title {
+    color: #fff ;
+    margin-left: 196px;
+ }
+
+.form-control{
+background-color:#fff;
+}
+.modal-header {
+border-bottom: 1px solid #f5f4f4 ; }
+.modal-footer {
+border-top: 1px solid #803950; }
+.btn-primary{
+background-color: #6c757d;
+border-color: #6c757d;
+font-size: 25px ; }
